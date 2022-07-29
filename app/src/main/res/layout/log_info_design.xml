@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        style="?android:attr/dividerHorizontal"
+        android:layout_centerHorizontal="true"
+        card_view:cardBackgroundColor="#E6E6E6"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:divider="?android:dividerHorizontal"
+            android:showDividers="middle"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txtLoginfoNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="21dp"
+                android:fontFamily="sans-serif"
+                android:textSize="16dp"
+                android:text="No"/>
+            <TextView
+                android:id="@+id/txtLoginfoTimestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="21dp"
+                android:fontFamily="sans-serif"
+                android:textSize="16dp"
+                android:text="Timestamp"/>
+            <TextView
+                android:id="@+id/txtLoginfoUserid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="21dp"
+                android:fontFamily="sans-serif"
+                android:textSize="16dp"
+                android:text="UserID"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

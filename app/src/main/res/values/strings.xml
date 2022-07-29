@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MyToolsCollections</string>
+    <string name="process_collection">Process Collection</string>
+    <string name="log_collection_edit">Log Collection/Edit</string>
+    <string name="log_info">Log Info</string>
+    <string name="log_out">Log Out</string>
+    <string name="search">Search</string>
+    <string name="service_number">Service Number</string>
+    <string name="date_time">Date Time</string>
+    <string name="userid">UserID</string>
+    <string name="serv_num">Service Number</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="lat_lng">Lat/Lng</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="status_prompt">Choose Status</string>
+    <string name="alamat">alamat</string>
+    <string name="id">ID</string>
+    <string name="timestamp">Timestamp</string>
+    <string name="status">Status</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+
+    <string-array name="status">
+        <item>OnProgress</item>
+        <item>Collected</item>
+    </string-array>
+</resources>

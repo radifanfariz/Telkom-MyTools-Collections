@@ -1,0 +1,2 @@
+rootProject.name='MyTools_Collections'
+include ':app'

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <DatePicker
+        android:id="@+id/datepicker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"/>
+<!--    <TimePicker-->
+<!--        android:id="@+id/timepicker"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:timePickerMode="spinner"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

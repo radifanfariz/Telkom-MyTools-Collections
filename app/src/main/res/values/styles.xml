@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/black</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">@android:color/darker_gray</item>
+    </style>
+    <style name="UpdateButton" parent="Theme.AppCompat">
+        <item name="colorButtonNormal">@android:color/holo_green_dark</item>
+        <item name="colorControlHighlight">@android:color/white</item>
+    </style>
+
+    <style name="NextButton" parent="Theme.AppCompat">
+        <item name="colorButtonNormal">@android:color/holo_green_dark</item>
+        <item name="colorControlHighlight">@android:color/darker_gray</item>
+    </style>
+
+</resources>
